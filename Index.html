@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link importado para a utulização dos icons <i> na sessão de contatos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Sessão da barra de navegação -->
+    <header>
+        <div class="logo">
+            <img src="img/Doflamingo aesthetic icon.png" alt="Doflamingo">
+            <h2>Dnzim</h2>
+        </div>
+        <nav>
+            <a href="#sobre-mim">Sobre Mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#formacao">Formação</a>
+            <a href="#contatos">Contatos</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sessão Sobre Mim -->
+        <section id="sobre-mim">
+            <img src="img/Sem título.png" alt="" id="img-Sobre">
+            <h2>Olá, eu sou <span class="nome">Nicollas Diniz</span> <span id="Span-sobremim">(Dnzim)</span></h2>
+            <p>Tenho 19 anos, sou estudante de TI e desenvolvedor C# .NET, focado em me especializar em desenvolvimento fullstack.</p>
+        </section>
+
+        <!-- Sessão Projetos -->
+        <section id="projetos">
+            <!-- video em loop no fundo -->
+            <video autoplay muted loop id="video-background">
+                <source src="video/donquixote.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+            <!-- div que tem um "Glass effect para borar o video no fundo" -->
+            <div class="glass-overlay"></div>
+            <h2>Meus Projetos</h2>
+            <!-- separei as Divs em "Cards" e em cada card possui um projeto -->
+            <div class="conteudo">
+                <div class="cards">
+                    <div class="card">
+                        <a href="https://github.com/Dinizim/DnMovies" target="_blank">
+                            <img src="img/Doflamingo aesthetic icon.png" alt="Projeto 1">
+                        </a>
+                        <h3>DnMovies</h3>
+                    </div>
+                    <div class="card">
+                        <a href="https://github.com/Dinizim/Pratice-Cs/tree/main/LibrarySystem" target="_blank">
+                            <img src="img/projeto2.png" alt="Projeto 2">
+                        </a>
+                        <h3>CrudBook</h3>
+                    </div>
+                    <div class="card">
+                        <a href="https://meek-buttercream-02a308.netlify.app/" target="_blank">
+                            <img src="img/projeto3.png" alt="Projeto 3">
+                        </a>
+                        <h3>Sindrome do Pânico</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sessão Formação -->
+        <section id="formacao">
+            <div class="container">
+                <h2>Cursando Análise e Desenvolvimento de Sistema na <span class="nome">Uninter</span></h2>
+                <p>Atualmente, estou aprimorando meus conhecimentos em desenvolvimento de software e me especializando em tecnologias fullstack, com foco em C# e .NET.</p>
+                
+                <div class="container2">
+                    <div class="formacao-details">
+                        <h3>Cursos Complementares</h3>
+                        <div class="list">
+                            <div class="item">
+                                <span class="label">C# e ASP.NET Core</span> | <span class="info">Udemy (2024)</span>
+                            </div>
+                            <div class="item">
+                                <span class="label">Banco de Dados SQL</span> | <span class="info">Fundação Bradesco (2023)</span>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="habilidades">
+                        <h3>Habilidades e Tecnologias</h3>
+                        <div class="list">
+                            <div class="item">
+                                <span class="label">C# e .NET</span> | <span class="info">Avançado</span>
+                            </div>
+                            <div class="item">
+                                <span class="label">JavaScript, TypeScript</span> | <span class="info">Intermediário</span>
+                            </div>
+                            <div class="item">
+                                <span class="label">SQL Server, MySQL, PostgreSQL</span> | <span class="info">Intermediário</span>
+                            </div>
+                            <div class="item">
+                                <span class="label">ASP.NET MVC, Node.js</span> | <span class="info">Intermediário</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sessão Contatos -->
+    <footer id="contatos">
+        <div class="contatos">
+            <div class="contatos-info">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/nicollas-diniz-964a571b2/" target="_blank"><i class="fab fa-linkedin"></i> Nicollas Diniz</a></li>
+                    <li><a href="https://github.com/Dinizim/" target="_blank"><i class="fab fa-github"></i> Dnzim</a></li>
+                    <li><a href="mailto:nicollasfdiniz@gmail.com"><i class="fas fa-envelope"></i> nicollasfdiniz@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nicollas Diniz. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
